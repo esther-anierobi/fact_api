@@ -16,10 +16,10 @@ In your terminal:
   * `.venv\Scripts\activate.bat`
 
 Once activated, Run the app using
-- `uvicorn main:app --reload`
+- `uvicorn main:app --host 0.0.0.0 --port 8000`
 
 Follow the link to the SwaggerUI
-* `http://127.0.0.1:8000`
+* `http://0.0.0.0:8000/docs`
 
 Run the program at
-`http://127.0.0.1:8000/doc`
+`http://0.0.0.0:8000/docs`
