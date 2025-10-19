@@ -1,7 +1,6 @@
 import httpx
-from sqlalchemy import DateTime
-from datetime import datetime, timezone, timedelta
-from app.user_schemas import UserSchema, UserResponseSchema
+from datetime import datetime, timezone
+from user_schemas import UserSchema, UserResponseSchema
 
 
 CAT_FACTS_URL = "https://catfact.ninja/fact"

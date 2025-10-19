@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app import user_route
+import user_route
 
 app = FastAPI(title="My Profile")
 

@@ -16,7 +16,7 @@ In your terminal:
   * `.venv\Scripts\activate.bat`
 
 Once activated, Run the app using
-- `uvicorn app.main:app --reload`
+- `uvicorn main:app --reload`
 
 Follow the link to the SwaggerUI
 * `http://127.0.0.1:8000`

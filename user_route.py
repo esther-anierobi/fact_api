@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from starlette import status
-from app.user_service import get_user
-from app.user_schemas import UserResponseSchema
+from user_service import get_user
+from user_schemas import UserResponseSchema
 
 
 router = APIRouter(prefix="/me")
